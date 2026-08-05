@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-//while (condition) {
+//while (condition) //{
     // body
-}
+}//
 
 int main() {
     int i = 1;
