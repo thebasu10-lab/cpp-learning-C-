@@ -3,9 +3,9 @@ using namespace std;
 
 //if (condition) {
     // true path
-} //else {
+//}// //else //{//
     // false path
-}
+//}//
 
 int main() {
     int number = 7;
