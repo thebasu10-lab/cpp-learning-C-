@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 //do {
-    // body//
-} //while (condition);//
+    // body//}// //while (condition);//
 
 int main() {
     int i = 1;
