@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Implicit conversion
+    int a = 10;
+    double b = a;                  // int → double
+    cout << "Implicit conversion (int to double): " << b << endl;
+
+    // Explicit conversion (C++ style - recommended)
+    double pi = 3.14159;
+    int truncated = static_cast<int>(pi);
+    cout << "Explicit conversion (double to int): " << truncated << endl;
+
+    // C-style cast
+    float f = 9.99f;
+    int i = (int)f;
+    cout << "C-style cast: " << i << endl;
+
+    return 0;
+}
+
+//Output
+//Implicit conversion (int to double): 10
+//Explicit conversion (double to int): 3
+//C-style cast: 9
